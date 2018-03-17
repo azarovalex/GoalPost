@@ -1,14 +1,15 @@
 //
-//  ViewController.swift
+//  GoalsVC.swift
 //  GoalPost
 //
 //  Created by Alex Azarov on 3/14/18.
 //  Copyright © 2018 Alex Azarov. All rights reserved.
 //
 
+
 import UIKit
 
-class ViewController: UIViewController {
+class GoalsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
