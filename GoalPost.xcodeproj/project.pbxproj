@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3EEC7B2061BEBC00223FDF /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EEC7A2061BEBC00223FDF /* GoalType.swift */; };
 		EC5B4F1F205DD6050079F2BB /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B4F1E205DD6050079F2BB /* GoalCell.swift */; };
 		ECBDF2FF2059BEE1007E8919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDF2FE2059BEE1007E8919 /* AppDelegate.swift */; };
 		ECBDF3012059BEE1007E8919 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDF3002059BEE1007E8919 /* GoalsVC.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC3EEC7A2061BEBC00223FDF /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		EC5B4F1E205DD6050079F2BB /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		ECBDF2FB2059BEE1007E8919 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBDF2FE2059BEE1007E8919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		ECBDF3152059BF10007E8919 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				EC3EEC7A2061BEBC00223FDF /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5B4F1F205DD6050079F2BB /* GoalCell.swift in Sources */,
+				EC3EEC7B2061BEBC00223FDF /* GoalType.swift in Sources */,
 				ECBDF3012059BEE1007E8919 /* GoalsVC.swift in Sources */,
 				ECBDF2FF2059BEE1007E8919 /* AppDelegate.swift in Sources */,
 				ECBDF3072059BEE1007E8919 /* GoalPost.xcdatamodeld in Sources */,
