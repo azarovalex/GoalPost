@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EC3EEC7B2061BEBC00223FDF /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EEC7A2061BEBC00223FDF /* GoalType.swift */; };
 		EC5B4F1F205DD6050079F2BB /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B4F1E205DD6050079F2BB /* GoalCell.swift */; };
+		EC5E25BE2062E1A1008E9FC8 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E25BD2062E1A1008E9FC8 /* CreateGoalVC.swift */; };
+		EC5E25C02062E4D0008E9FC8 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E25BF2062E4D0008E9FC8 /* UIViewControllerExt.swift */; };
 		ECBDF2FF2059BEE1007E8919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDF2FE2059BEE1007E8919 /* AppDelegate.swift */; };
 		ECBDF3012059BEE1007E8919 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDF3002059BEE1007E8919 /* GoalsVC.swift */; };
 		ECBDF3042059BEE1007E8919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBDF3022059BEE1007E8919 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		EC3EEC7A2061BEBC00223FDF /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		EC5B4F1E205DD6050079F2BB /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		EC5E25BD2062E1A1008E9FC8 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		EC5E25BF2062E4D0008E9FC8 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		ECBDF2FB2059BEE1007E8919 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBDF2FE2059BEE1007E8919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECBDF3002059BEE1007E8919 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				ECBDF3002059BEE1007E8919 /* GoalsVC.swift */,
+				EC5E25BD2062E1A1008E9FC8 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		ECBDF3162059BF26007E8919 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				EC5E25BF2062E4D0008E9FC8 /* UIViewControllerExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5B4F1F205DD6050079F2BB /* GoalCell.swift in Sources */,
+				EC5E25BE2062E1A1008E9FC8 /* CreateGoalVC.swift in Sources */,
 				EC3EEC7B2061BEBC00223FDF /* GoalType.swift in Sources */,
 				ECBDF3012059BEE1007E8919 /* GoalsVC.swift in Sources */,
 				ECBDF2FF2059BEE1007E8919 /* AppDelegate.swift in Sources */,
+				EC5E25C02062E4D0008E9FC8 /* UIViewControllerExt.swift in Sources */,
 				ECBDF3072059BEE1007E8919 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
