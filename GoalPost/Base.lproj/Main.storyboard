@@ -303,7 +303,7 @@
                     </view>
                     <connections>
                         <outlet property="goalTextView" destination="Ob2-kZ-aFt" id="ABl-kD-l8S"/>
-                        <outlet property="lognTermBtn" destination="8HG-JA-bME" id="EMQ-01-rLh"/>
+                        <outlet property="longTermBtn" destination="8HG-JA-bME" id="EMQ-01-rLh"/>
                         <outlet property="nextBtn" destination="pGy-p7-mDr" id="wKm-ho-L5H"/>
                         <outlet property="shortTermBtn" destination="tJV-S8-ZCt" id="XDX-C9-fQ6"/>
                     </connections>
